@@ -3,6 +3,12 @@
 ## Overview
 An end-to-end SQL analytics project that analyzes customer journeys, identifies funnel drop-offs, predicts purchase intent, and uncovers cart abandonment trends to improve conversion rates.
 
+## Dashboard Preview
+
+![Dashboard Overview](images/dashboard_overview.png)
+
+![High Intent Recovery](images/high_intent_recovery.png)
+
 ## Business Objectives
 - Analyze customer conversion funnels
 - Identify cart abandonment patterns
@@ -11,7 +17,8 @@ An end-to-end SQL analytics project that analyzes customer journeys, identifies 
 - Recommend recovery opportunities
 
 ## Tech Stack
-- SQL (MySQL)
+- SQL (SQLite)
+- Excel
 - Git & GitHub
 
 ## SQL Concepts
@@ -22,23 +29,19 @@ An end-to-end SQL analytics project that analyzes customer journeys, identifies 
 - Aggregate Functions
 - Subqueries
 
-## Key Features
-- Customer Funnel Analysis
-- Intent Scoring Model
-- Cart Recovery Analysis
-- Conversion & Revenue KPIs
-- Business Insight Queries
-
 ## Repository Structure
 
 ```
 Customer-Funnel-Cart-Recovery/
 │── sql/
-│── data/
+│── dashboard/
 │── documentation/
 │── images/
 └── README.md
 ```
 
+## Dataset
+This project is based on the **Kechinov E-Commerce Behavior Dataset (October 2019)** from Kaggle. Due to its large size, the full dataset is not included in this repository. Please download it directly from Kaggle before running the SQL analysis.
+
 ## Learning Outcomes
-This project demonstrates practical SQL skills for customer behavior analysis, funnel optimization, marketing analytics, and business decision-making using a realistic e-commerce dataset.
+This project demonstrates practical SQL skills for customer behavior analysis, funnel optimization, marketing analytics, intent scoring, and business decision-making using a realistic e-commerce dataset.
