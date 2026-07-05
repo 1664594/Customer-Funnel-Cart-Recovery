@@ -7,8 +7,6 @@ An end-to-end SQL analytics project that analyzes customer journeys, identifies 
 
 ![Dashboard Overview](images/dashboard_overview.png)
 
-![High Intent Recovery](images/high_intent_recovery.png)
-
 ## Business Objectives
 - Analyze customer conversion funnels
 - Identify cart abandonment patterns
